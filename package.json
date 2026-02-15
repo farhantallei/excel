@@ -1,6 +1,6 @@
 {
 	"name": "@farhantallei/excel",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"license": "MIT",
 	"description": "Declarative and type-safe Excel (XLSX) export for Node.js.",
 	"keywords": [
