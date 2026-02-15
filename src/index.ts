@@ -1,4 +1,4 @@
-import XLSX from "xlsx"
+import * as XLSX from "xlsx"
 
 import { buildSheet } from "./builder"
 import { applyColumnConfig } from "./formatter"
