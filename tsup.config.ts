@@ -8,5 +8,11 @@ export default defineConfig({
 	clean: true,
 	target: "es2022",
 	treeshake: true,
+	external: ["xlsx"],
+	esbuildOptions: (options) => {
+		options.banner = {
+			js: '"use client";',
+		}
+	},
 	// keep types-only subpath from emitting runtime by not exporting it in import/require
 })
